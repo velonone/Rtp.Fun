@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/velonone/Rtp.Fun/actions/workflows/verify.yml"><img src="https://github.com/velonone/Rtp.Fun/actions/workflows/verify.yml/badge.svg" alt="Public Evidence"/></a>
   <a href="https://rtp.fun/"><img src="https://img.shields.io/badge/OPEN-RTP.FUN-C7FF2E?style=flat-square&labelColor=111116" alt="Open Rtp.Fun"/></a>
   <a href="https://rtp.fun/docs/"><img src="https://img.shields.io/badge/DOCS-OFFICIAL-D9C4FA?style=flat-square&labelColor=111116" alt="Official Docs"/></a>
   <a href="#ams-trust-profile"><img src="https://img.shields.io/badge/AMS-TRUST_PROFILE-8FE5D2?style=flat-square&labelColor=111116" alt="AMS Trust Profile"/></a>
