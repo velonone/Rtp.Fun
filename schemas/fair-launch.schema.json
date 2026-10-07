@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rtp.fun/schemas/fair-launch-manifest-v1.json",
+  "title": "Rtp.Fun Fair Launch Manifest",
+  "type": "object",
+  "required": ["version", "network", "token", "total_supply", "private_sale", "presale", "verified_at"],
+  "properties": {
+    "version": {"const": 1},
+    "network": {"type": "string"},
+    "token": {"type": "string"},
+    "launch_transaction": {"type": "string"},
+    "total_supply": {"type": "string"},
+    "private_sale": {"type": "boolean"},
+    "presale": {"type": "boolean"},
+    "team_launch_allocation": {"type": "string"},
+    "insider_price_advantage": {"type": "boolean"},
+    "authority_state": {"type": "object"},
+    "treasury_policy": {"type": "string"},
+    "manifest_sha256": {"type": "string"},
+    "verified_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": true
+}
