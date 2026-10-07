@@ -1,0 +1,19 @@
+name: Public claim question
+description: Ask for clarification about a scoped public trust claim.
+title: "[claim] "
+labels: ["public-claim"]
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: Claim ID
+      placeholder: AMS-CUSTODY-001
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Ask about scope, wording or published evidence. Do not include private security details.
+    validations:
+      required: true
