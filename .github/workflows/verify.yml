@@ -1,0 +1,45 @@
+name: Public Evidence
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify-public-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Reject obvious secret material
+        shell: bash
+        run: |
+          if grep -RInE '(PRIVATE KEY|BEGIN (RSA|OPENSSH|EC) PRIVATE|api[_-]?key[[:space:]]*[:=][[:space:]]*[^<[:space:]]+)' README.md docs claims schemas evidence assets; then
+            echo 'Potential secret material found in public evidence surface.'
+            exit 1
+          fi
+
+      - name: Validate public JSON and SVG
+        run: |
+          python - <<'PY'
+          import json, pathlib, xml.etree.ElementTree as ET
+
+          for p in pathlib.Path('.').rglob('*.json'):
+              json.loads(p.read_text())
+
+          for p in pathlib.Path('assets').glob('*.svg'):
+              ET.parse(p)
+
+          print('public evidence syntax ok')
+          PY
+
+      - name: Enforce assurance language
+        shell: bash
+        run: |
+          if grep -RInE '\b(ISO certified|NIST certified|OWASP certified|SLSA certified|fully audited)\b' README.md docs claims; then
+            echo 'Assurance wording exceeds the allowed public vocabulary.'
+            exit 1
+          fi
