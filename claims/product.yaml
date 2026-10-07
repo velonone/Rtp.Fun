@@ -1,0 +1,14 @@
+version: 1
+issuer: Rtp.Fun
+claims:
+  - id: PRODUCT-DOCS-001
+    claim: "Rtp.Fun publishes an official user documentation site at https://rtp.fun/docs/."
+    status: observed
+    assurance: production-observed
+    scope: [documentation]
+
+  - id: PRODUCT-ALLIANCE-001
+    claim: "Rtp.Fun exposes alliance-oriented community surfaces alongside market discovery and execution surfaces."
+    status: observed
+    assurance: production-observed
+    scope: [product]
