@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rtp.fun/schemas/public-claim-v1.json",
+  "title": "Rtp.Fun Public Claim",
+  "type": "object",
+  "required": ["id", "claim", "status", "assurance", "scope"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z0-9-]+$"},
+    "claim": {"type": "string", "minLength": 1},
+    "status": {"enum": ["designed", "implemented", "observed", "retired"]},
+    "assurance": {"enum": ["designed-against", "conformance-evidence", "production-observed", "independently-assessed"]},
+    "scope": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "last_verified": {"type": "string", "format": "date"}
+  },
+  "additionalProperties": false
+}
