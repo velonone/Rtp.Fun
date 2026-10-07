@@ -1,0 +1,31 @@
+<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 629 216" role="img" aria-labelledby="lb-title">
+  <title id="lb-title">RTP</title>
+  <defs>
+    <clipPath id="lb-clip">
+      <path fill-rule="evenodd" d="M47 100 126 22H228V70L178 121 241 186H185L148 150 112 186H47V100ZM86 65V164L185 65H86Z"/>
+      <path d="M247 22H438L397 64H349V186H309V64H247V22Z"/>
+      <path fill-rule="evenodd" d="M466 22H571L613 64 533 146H464V186H423V65L466 22ZM464 65V126L485 105H529L570 65H464Z"/>
+    </clipPath>
+    <linearGradient id="lb-top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F4F4F6"/>
+      <stop offset="1" stop-color="#DEDEE2"/>
+    </linearGradient>
+    <linearGradient id="lb-bottom" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D8D8DC"/>
+      <stop offset="0.5" stop-color="#F7F7F8"/>
+      <stop offset="1" stop-color="#C4C4C9"/>
+    </linearGradient>
+    <linearGradient id="lb-blend" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.12" stop-color="#000"/>
+      <stop offset="0.88" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="lb-mask">
+      <rect x="0" y="0" width="629" height="216" fill="url(#lb-blend)"/>
+    </mask>
+  </defs>
+  <g clip-path="url(#lb-clip)" shape-rendering="geometricPrecision">
+    <rect x="0" y="0" width="629" height="216" fill="url(#lb-top)"/>
+    <rect x="0" y="0" width="629" height="216" fill="url(#lb-bottom)" mask="url(#lb-mask)"/>
+  </g>
+</svg>
