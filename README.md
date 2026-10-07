@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/readme-banner.webp" alt="Rtp.Fun — Ready to Pump / Discovery should not end where execution begins" width="100%" />
+  <img src="assets/readme-banner.webp" alt="Rtp.Fun — One market surface for discovery, trade, launch and alliances" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/rtp-mark-brand.svg" alt="Rtp.Fun" width="92" />
+  <img src="assets/rtp-logo-brand.svg" alt="RTP" width="240" />
 </p>
 
 <p align="center">
@@ -13,9 +13,13 @@
 
 <p align="center">
   <a href="https://github.com/velonone/Rtp.Fun/actions/workflows/verify.yml"><img src="https://github.com/velonone/Rtp.Fun/actions/workflows/verify.yml/badge.svg" alt="Public Evidence"/></a>
+  &nbsp;&nbsp;
   <a href="https://rtp.fun/"><img src="https://img.shields.io/badge/OPEN-RTP.FUN-C7FF2E?style=flat-square&labelColor=111116" alt="Open Rtp.Fun"/></a>
+  &nbsp;&nbsp;
   <a href="https://rtp.fun/docs/"><img src="https://img.shields.io/badge/DOCS-OFFICIAL-D9C4FA?style=flat-square&labelColor=111116" alt="Official Docs"/></a>
+  &nbsp;&nbsp;
   <a href="#ams-trust-profile"><img src="https://img.shields.io/badge/AMS-TRUST_PROFILE-8FE5D2?style=flat-square&labelColor=111116" alt="AMS Trust Profile"/></a>
+  &nbsp;&nbsp;
   <a href="#assurance-registry"><img src="https://img.shields.io/badge/ASSURANCE-SCOPED-FFFFFF?style=flat-square&labelColor=111116" alt="Assurance"/></a>
 </p>
 
@@ -41,24 +45,24 @@ Rtp.Fun connects **discovery, execution, launch workflows and persistent trading
 <table>
 <tr>
 <td width="50%">
-  <img src="https://rtp.fun/docs/guides/signals.webp" alt="Rtp.Fun Signals" width="100%"/>
+  <img src="assets/readme-panels/01-signals.png" alt="Rtp.Fun Signals" width="100%"/>
   <br/><strong>Discover → Signals</strong><br/>
   <sub>Market discovery stays close to the next reviewable action.</sub>
 </td>
 <td width="50%">
-  <img src="https://rtp.fun/docs/guides/trade.webp" alt="Rtp.Fun Trade" width="100%"/>
+  <img src="assets/readme-panels/02-trade.png" alt="Rtp.Fun Trade" width="100%"/>
   <br/><strong>Trade → Review before execution</strong><br/>
   <sub>Amount, route and fees stay visible before signing.</sub>
 </td>
 </tr>
 <tr>
 <td width="50%">
-  <img src="https://rtp.fun/docs/guides/launch-form.webp" alt="Rtp.Fun Launch" width="100%"/>
+  <img src="assets/readme-panels/03-launch.png" alt="Rtp.Fun Launch" width="100%"/>
   <br/><strong>Launch → One review model</strong><br/>
   <sub>Launch workflows use the same execution trust boundary.</sub>
 </td>
 <td width="50%">
-  <img src="https://rtp.fun/docs/guides/alliances-20261006.jpg" alt="Rtp.Fun Alliances" width="100%"/>
+  <img src="assets/readme-panels/04-alliances.png" alt="Rtp.Fun Alliances" width="100%"/>
   <br/><strong>Coordinate → Alliances</strong><br/>
   <sub>Calls, rooms, members and launch coordination become persistent product surfaces.</sub>
 </td>
