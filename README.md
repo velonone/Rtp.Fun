@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/rtp-mark-brand.svg" alt="RTP" width="92" />
+  <img src="assets/rtp-mark-brand.svg" alt="Rtp.Fun" width="92" />
 </p>
-
-<h1 align="center">Rtp.Fun</h1>
 
 <p align="center">
   <strong>Protocol · Trust · Public Evidence</strong><br/>
