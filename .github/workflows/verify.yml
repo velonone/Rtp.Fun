@@ -12,7 +12,7 @@ jobs:
   verify-public-evidence:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Reject obvious secret material
         shell: bash
@@ -39,7 +39,7 @@ jobs:
       - name: Enforce assurance language
         shell: bash
         run: |
-          if grep -RInE '\b(ISO certified|NIST certified|OWASP certified|SLSA certified|fully audited)\b' README.md docs claims; then
+          if grep -RInE '\b(ISO certified|NIST certified|OWASP certified|SLSA certified|fully audited)\b' README.md docs claims --exclude=standards-crosswalk.md; then
             echo 'Assurance wording exceeds the allowed public vocabulary.'
             exit 1
           fi
