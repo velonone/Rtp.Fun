@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/readme-banner.webp" alt="Rtp.Fun — Ready to Pump / Discovery should not end where execution begins" width="100%" />
+</p>
+
+<p align="center">
   <img src="assets/rtp-mark-brand.svg" alt="Rtp.Fun" width="92" />
 </p>
 
