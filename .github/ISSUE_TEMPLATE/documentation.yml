@@ -1,0 +1,26 @@
+name: Documentation correction
+description: Report an error in public documentation or a broken public reference.
+title: "[docs] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: File, section or public URL.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction
+      description: Explain what is wrong and, when possible, provide a public reference.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Safety
+      options:
+        - label: This report contains no credentials, private infrastructure detail or vulnerability exploit steps.
+          required: true
