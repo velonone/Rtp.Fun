@@ -1,13 +1,8 @@
-<p align="center">
-  <img src="assets/readme-banner.webp" alt="Rtp.Fun — One market surface for discovery, trade, launch and alliances" width="100%" />
-</p>
 
 <p align="center">
-  <img src="assets/rtp-logo-brand.svg" alt="RTP" width="240" />
+  <img src="assets/rtp-logo-brand.svg" alt="RTP" width="120" />
 </p>
-
 <p align="center">
-  <strong>Protocol · Trust · Public Evidence</strong><br/>
   <sub>The alliance-native trading network.</sub>
 </p>
 
