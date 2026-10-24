@@ -2,19 +2,19 @@ version: 1
 issuer: Rtp.Fun
 claims:
   - id: EXEC-SIGNING-001
-    claim: "Execution signing is performed inside the user-controlled wallet boundary rather than by an RTP server-held AMS key."
-    status: implemented
-    assurance: conformance-evidence
+    claim: "The execution architecture assigns signing to the user-controlled wallet boundary, not a server-held AMS key."
+    status: designed
+    assurance: designed-against
     scope: [execution]
 
   - id: EXEC-INTENT-001
-    claim: "Prepared execution is checked against reviewed intent and authorization before signing."
-    status: implemented
-    assurance: conformance-evidence
+    claim: "The signing control objective requires prepared execution to match reviewed intent and authorization."
+    status: designed
+    assurance: designed-against
     scope: [execution]
 
   - id: EXEC-UNKNOWN-001
-    claim: "An indeterminate execution outcome is reconciled before replacement action."
-    status: implemented
-    assurance: conformance-evidence
+    claim: "The execution architecture requires reconciliation of an indeterminate outcome before replacement action."
+    status: designed
+    assurance: designed-against
     scope: [execution]

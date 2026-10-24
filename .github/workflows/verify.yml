@@ -15,16 +15,11 @@ jobs:
       - uses: actions/checkout@v7
 
       - name: Reject obvious secret material
-        shell: bash
-        run: |
-          if grep -RInE '(PRIVATE KEY|BEGIN (RSA|OPENSSH|EC) PRIVATE|api[_-]?key[[:space:]]*[:=][[:space:]]*[^<[:space:]]+)' README.md docs claims schemas evidence assets; then
-            echo 'Potential secret material found in public evidence surface.'
-            exit 1
-          fi
+        run: python3 .github/scripts/check_public_secrets.py
 
       - name: Validate public JSON and SVG
         run: |
-          python - <<'PY'
+          python3 - <<'PY'
           import json, pathlib, xml.etree.ElementTree as ET
 
           for p in pathlib.Path('.').rglob('*.json'):
