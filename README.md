@@ -1,178 +1,74 @@
-
 <p align="center">
-  <img src="assets/rtp-logo-brand.svg" alt="RTP" width="120" />
-</p>
-<p align="center">
-  <sub>The alliance-native trading network.</sub>
+  <img src="assets/rtp-logo-brand.svg" alt="RTP.FUN" width="120" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/velonone/Rtp.Fun/actions/workflows/verify.yml"><img src="https://github.com/velonone/Rtp.Fun/actions/workflows/verify.yml/badge.svg" alt="Public Evidence"/></a>
-  &nbsp;&nbsp;
-  <a href="https://rtp.fun/"><img src="https://img.shields.io/badge/OPEN-RTP.FUN-C7FF2E?style=flat-square&labelColor=111116" alt="Open Rtp.Fun"/></a>
-  &nbsp;&nbsp;
-  <a href="https://rtp.fun/docs/"><img src="https://img.shields.io/badge/DOCS-OFFICIAL-D9C4FA?style=flat-square&labelColor=111116" alt="Official Docs"/></a>
-  &nbsp;&nbsp;
-  <a href="#ams-trust-profile"><img src="https://img.shields.io/badge/AMS-TRUST_PROFILE-8FE5D2?style=flat-square&labelColor=111116" alt="AMS Trust Profile"/></a>
-  &nbsp;&nbsp;
-  <a href="#assurance-registry"><img src="https://img.shields.io/badge/ASSURANCE-SCOPED-FFFFFF?style=flat-square&labelColor=111116" alt="Assurance"/></a>
-</p>
+# RTP.FUN — Markets, token launches and community alliances
 
----
+RTP.FUN brings market discovery, trading, token launches and community alliances into one web app. Follow market and social activity, explore launches, and work with your alliance without losing the context behind an action.
 
-## One market surface
+[Open RTP.FUN](https://rtp.fun/app/) · [Read the user guide](https://rtp.fun/docs/) · [Explore Alliances](https://rtp.fun/app/community) · [Release notes and scope](STATUS.md)
 
-Rtp.Fun connects **discovery, execution, launch workflows and persistent trading communities** in one operating surface.
+![RTP.FUN homepage with product navigation and the Ready to Pump introduction](assets/product-20261024/home.jpg)
 
-| Layer | Product surface | Public purpose |
+## Explore the product
+
+| Start with | What you can find | Open |
 | --- | --- | --- |
-| **Discover** | Signals · Pulse · Calls · Trackers | Turn fragmented market activity into reviewable opportunities. |
-| **Trade** | Trade · Swap · Portfolio | Keep review, execution and account context in one terminal. |
-| **Launch** | Self launch · Multi-route · Rooms | Coordinate launch workflows through one execution boundary. |
-| **Coordinate** | Alliances · Calls · Rankings · Rooms | Give trading communities persistent identity and operating surfaces. |
-| **Automate** | Rule-based tools and assisted workflows | Reduce repetitive work without removing wallet policy boundaries. |
-| **Own** | AMS · Pocket · Portfolio | Separate identity from execution and keep signing under user control. |
+| Market discovery | Pulse market views, Signals updates, Calls and tracking surfaces. | [Pulse](https://rtp.fun/app/pulse) · [Signals](https://rtp.fun/app/signals) |
+| Trading | Trade and Swap workflows with amounts, fees and execution review; Portfolio for account context. | [Trading guide](https://rtp.fun/docs/using/trade/) |
+| Token launches | A launch catalogue and token-creation workflows, with availability specific to each network and route. | [Launchpad](https://rtp.fun/app/launch) |
+| Community alliances | A public directory, alliance membership, Calls and task bounties for community work. | [Alliances](https://rtp.fun/app/community) |
+| More to explore | Public Live and Gacha directories alongside the market and community features. | [Live](https://rtp.fun/app/live) · [Gacha](https://rtp.fun/app/gacha) |
 
-> **Public scope rule:** a connected chain, venue or provider is not automatically represented as production-observed. Capability status is release- and path-scoped.
+Communities have a place to keep their identity, share Calls and organize work. Traders can follow the activity around an asset and move into its trading or launch workflow. A listed asset, community or third-party post is not an RTP.FUN endorsement.
 
-## Product surfaces
+### The current interface
 
 <table>
 <tr>
 <td width="50%">
-  <img src="assets/readme-panels/01-signals.png" alt="Rtp.Fun Signals" width="100%"/>
-  <br/><strong>Discover → Signals</strong><br/>
-  <sub>Market discovery stays close to the next reviewable action.</sub>
+  <a href="https://rtp.fun/app/launch"><img src="assets/product-20261024/launch.jpg" alt="RTP.FUN Launchpad showing the public launch catalogue and network filters" width="100%" /></a>
+  <br/><strong>Launchpad</strong><br/>
+  <sub>Explore listed launches and network filters.</sub>
 </td>
 <td width="50%">
-  <img src="assets/readme-panels/02-trade.png" alt="Rtp.Fun Trade" width="100%"/>
-  <br/><strong>Trade → Review before execution</strong><br/>
-  <sub>Amount, route and fees stay visible before signing.</sub>
-</td>
-</tr>
-<tr>
-<td width="50%">
-  <img src="assets/readme-panels/03-launch.png" alt="Rtp.Fun Launch" width="100%"/>
-  <br/><strong>Launch → One review model</strong><br/>
-  <sub>Launch workflows use the same execution trust boundary.</sub>
-</td>
-<td width="50%">
-  <img src="assets/readme-panels/04-alliances.png" alt="Rtp.Fun Alliances" width="100%"/>
-  <br/><strong>Coordinate → Alliances</strong><br/>
-  <sub>Calls, rooms, members and launch coordination become persistent product surfaces.</sub>
+  <a href="https://rtp.fun/app/community"><img src="assets/product-20261024/alliances.jpg" alt="RTP.FUN Alliances showing public community cards and membership information" width="100%" /></a>
+  <br/><strong>Alliances</strong><br/>
+  <sub>Find communities and explore their shared activity.</sub>
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <a href="https://rtp.fun/docs/"><strong>Official product documentation →</strong></a>
-</p>
+These are real public page captures from **24 October 2026**. They exclude the account header, wallet balances and private drafts. Listed assets, community statistics and third-party content are historical screen content, not current quotes or performance claims. [Image provenance and sizes](assets/README.md).
 
-## AMS Trust Profile
+## Start with the right context
 
-AMS is the architectural name for Rtp.Fun's **execution-wallet boundary**. The end-user documentation refers to the user-facing surface simply as the Wallet.
+1. **Explore before connecting.** Use the public market, launch and community pages to understand the product.
+2. **Learn the Wallet roles.** Login establishes your RTP.FUN account. The execution wallet, called AMS in the architecture documentation, signs supported transactions in the user's browser. [Wallet guide](https://rtp.fun/docs/using/wallet/).
+3. **Review the specific action.** Network, route, asset, amount and fees matter. A visible route or tool does not establish that every path has been exercised in production.
+4. **Check the result before repeating an action.** A transaction with an uncertain outcome needs verification; uncertainty is not confirmation of failure.
 
-```mermaid
-flowchart LR
-    A[Identity proof] --> B[Authenticated session]
-    B --> C[Reviewed intent]
-    C --> D[AMS execution boundary]
-    D --> E[Local signing]
-    E --> F[Signed relay]
-    F --> G[Network]
-    G --> H[Receipt & reconciliation]
-```
+Some product surfaces are still incomplete, and market data or external services can be unavailable. Feature visibility, interface checks and completed on-chain execution are different kinds of evidence. The [dated release note](evidence/releases/2026-10-24/README.md) explains the scope of the latest published observations. No new funds were moved for that review.
 
-Public security objectives:
+## Wallet and public security information
 
-- **Identity and execution are separate roles.**
-- **AMS private-key material is designed to remain inside the wallet-origin boundary.**
-- **Prepared transactions are checked against reviewed intent, authorization and policy before local signing.**
-- **Expired or locked execution state fails closed.**
-- **Ambiguous execution outcomes are reconciled instead of blindly retried.**
+Identity and transaction signing are separate roles. RTP.FUN's server prepares and relays supported transactions; the intended signing boundary keeps plaintext AMS keys out of the server. The [public architecture](ARCHITECTURE.md) and [AMS profile](docs/ams/README.md) describe these responsibilities and their limits.
 
-This repository publishes the **control objective and evidence boundary**, not bypass-sensitive verifier internals, provider topology or production configuration.
+This repository does not publish an independent security assessment or certification. Architecture descriptions and internal checks do not establish either. [Evidence vocabulary](docs/assurance/README.md) · [Responsible disclosure](SECURITY.md).
 
-[AMS public profile →](docs/ams/README.md) · [Threat model →](docs/ams/threat-model.md)
+## About this repository
 
-## Assurance registry
+This is RTP.FUN's public product and documentation repository. The running application and its private source are maintained separately; this repository has no application install or build step.
 
-Rtp.Fun uses narrow evidence labels instead of blanket words such as “audited” or “certified”.
-
-| Label | Meaning |
+| Read | Purpose |
 | --- | --- |
-| **Designed Against** | Architecture or a control is intentionally designed with a published standard or security objective in mind. |
-| **Conformance Evidence** | Automated or reviewable evidence supports the stated contract. |
-| **Production Observed** | The stated behavior has been observed on the named production path. |
-| **Independently Assessed** | A named independent third party has assessed the stated scope. |
+| [Official Docs](https://rtp.fun/docs/) | How to use the product |
+| [Product overview](PRODUCT.md) | Product areas and the language used to describe them |
+| [Status and limitations](STATUS.md) | Dated observations and how to read capability claims |
+| [Public architecture](ARCHITECTURE.md) | Identity, signing and server responsibilities |
+| [Security policy](SECURITY.md) | Reporting a security concern privately |
+| [Claims registry](claims/) | Scoped product and architecture statements |
+| [Publication policy](PUBLICATION_POLICY.md) | What is appropriate to publish |
+| [Contributing](CONTRIBUTING.md) | Documentation corrections and public feedback |
 
-| Public record | Issuer | Evidence class | State |
-| --- | --- | --- | --- |
-| AMS Trust Profile | Rtp.Fun | Architecture + implementation-backed conformance | **Published** |
-| Public Claims Registry | Rtp.Fun | Machine-readable scoped claims | **Published** |
-| Release Conformance Record | Rtp.Fun | Release-specific tests / digests | **Framework published** |
-| Production Observation Record | Rtp.Fun | Chain/path-specific observation | **Release-scoped** |
-| Independent Security Assessment | Named third party | External assessment | **Not published** |
-
-**Internal evidence is never presented as an external certificate.**
-
-## Standards crosswalk
-
-| Area | Reference | Public posture |
-| --- | --- | --- |
-| Password-based KDF | RFC 9106 / Argon2id | Designed Against |
-| Authenticated encryption | AES-GCM / NIST SP 800-38D | Designed Against |
-| Web application controls | OWASP ASVS 5.0.0 | Control mapping |
-| Secure SDLC | NIST SSDF SP 800-218 v1.1 | Process crosswalk |
-| Supply-chain provenance | SLSA v1.2 | Release-evidence target |
-| SBOM | SPDX 3.0 / ISO/IEC 5962:2021 | Evidence-format target |
-| Wallet derivation | BIP-39 / BIP-32 / SLIP-0010 | Protocol profile |
-
-**Mapping is not certification.** Rtp.Fun does not claim ISO, NIST, OWASP or SLSA certification unless a separately verifiable certification or assessment exists for the named scope.
-
-[Standards crosswalk →](docs/assurance/standards-crosswalk.md)
-
-## Verifiable fair launch
-
-Rtp.Fun intends any native-token launch to be **publicly verifiable, not merely described as fair**.
-
-The public framework is designed to publish, where applicable, the launch transaction, total supply, allocation policy, private-sale / presale status, authority state, treasury policy, manifest digest and distribution evidence.
-
-No token-holder revenue-distribution, dividend or profit-sharing right is represented by this repository unless and until the legal structure, governance policy and enforceable implementation are separately approved and published.
-
-[Fair-launch principles →](docs/token/fair-launch-principles.md)
-
-## Disclosure boundary
-
-| Public | Private |
-| --- | --- |
-| Product capabilities and user-visible behavior | Provider topology and failover order |
-| Custody and execution trust boundaries | Private routing priority and quotas |
-| Standards mappings and control objectives | Anti-abuse / fraud thresholds |
-| Scoped claims and release evidence | Production hosts, credentials and service topology |
-| User-verifiable public references | Database schema and operational secrets |
-| Independent reports, when they exist | Bypass-sensitive verifier fingerprints |
-
-**Open the proof. Keep the machinery private.**
-
-## Repository map
-
-| Area | Purpose |
-| --- | --- |
-| [`PRODUCT.md`](PRODUCT.md) | Product model and public capability language |
-| [`ARCHITECTURE.md`](ARCHITECTURE.md) | Public architecture and trust boundaries |
-| [`SECURITY.md`](SECURITY.md) | Security and responsible disclosure policy |
-| [`STATUS.md`](STATUS.md) | Evidence vocabulary and status rules |
-| [`docs/ams/`](docs/ams/) | AMS public trust and threat model |
-| [`docs/assurance/`](docs/assurance/) | Standards, evidence and certificate policy |
-| [`docs/token/`](docs/token/) | Fair-launch verification framework |
-| [`claims/`](claims/) | Machine-readable public claims |
-| [`schemas/`](schemas/) | Public claim and evidence schemas |
-| [`evidence/`](evidence/) | Release-evidence format |
-
----
-
-<p align="center">
-  <img src="assets/rtp-logo-brand.svg" alt="RTP" width="140" /><br/>
-  <sub>Community-driven markets with a verifiable execution boundary.</sub>
-</p>
+The [token transparency framework](docs/token/fair-launch-principles.md) records disclosure principles only. It is not a sale announcement, a published token allocation, an airdrop entitlement or a promise of token-holder income.

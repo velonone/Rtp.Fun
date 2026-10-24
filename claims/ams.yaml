@@ -2,19 +2,19 @@ version: 1
 issuer: Rtp.Fun
 claims:
   - id: AMS-IDENTITY-001
-    claim: "Authentication and execution signing are separate roles."
-    status: implemented
-    assurance: conformance-evidence
+    claim: "The architecture assigns authentication and execution signing to separate roles."
+    status: designed
+    assurance: designed-against
     scope: [trade, swap, launch, tools]
 
   - id: AMS-CUSTODY-001
-    claim: "Rtp.Fun servers are not intended to hold plaintext AMS signing keys."
-    status: implemented
-    assurance: conformance-evidence
+    claim: "The architectural custody objective keeps plaintext AMS signing keys out of RTP.FUN servers."
+    status: designed
+    assurance: designed-against
     scope: [wallet]
 
   - id: AMS-UNKNOWN-001
-    claim: "An indeterminate execution outcome is reconciled before replacement action."
-    status: implemented
-    assurance: conformance-evidence
+    claim: "The execution architecture requires reconciliation of an indeterminate outcome before replacement action."
+    status: designed
+    assurance: designed-against
     scope: [execution]

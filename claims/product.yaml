@@ -6,9 +6,11 @@ claims:
     status: observed
     assurance: production-observed
     scope: [documentation]
+    last_verified: "2026-10-24"
 
   - id: PRODUCT-ALLIANCE-001
     claim: "Rtp.Fun exposes alliance-oriented community surfaces alongside market discovery and execution surfaces."
     status: observed
     assurance: production-observed
     scope: [product]
+    last_verified: "2026-10-24"

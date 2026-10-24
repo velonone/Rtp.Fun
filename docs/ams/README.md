@@ -2,7 +2,9 @@
 
 AMS is Rtp.Fun's **execution-wallet architecture**. The public profile explains the security contract without publishing implementation detail that would materially increase attack surface.
 
-## Public contract
+## Architecture and control objectives
+
+The following statements describe the intended architecture. This profile does not publish release-specific conformance artifacts or prove the behavior of every supported chain and route. See the [claims evidence boundary](../../claims/README.md).
 
 | Property | Public statement |
 | --- | --- |

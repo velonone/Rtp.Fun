@@ -1,31 +1,32 @@
-# Product model
+# RTP.FUN product overview
 
-Rtp.Fun is an **all-in-one, alliance-native trading network** built around one operating surface for discovery, trading, launches and community coordination.
+RTP.FUN brings market discovery, trading, token launches and community alliances into one web app. Its community features connect people and shared work to the assets and activities they follow.
 
-## Public capability model
+## Product areas
 
-| Capability | Public description |
-| --- | --- |
-| Discover | Signals, Pulse, Calls and tracking surfaces help users find market activity. |
-| Trade | Trade and Swap bring review, fees and execution into the same terminal. |
-| Launch | Launch workflows connect self-operated and integrated launch routes under one review model. |
-| Coordinate | Alliances, rooms, Calls and ranking surfaces make community coordination persistent. |
-| Automate | Browser-side rule workflows reduce repetitive work while retaining wallet policy boundaries. |
-| Own | Wallet, Pocket and Portfolio keep execution and account context close together. |
+| Area | User purpose | Scope |
+| --- | --- | --- |
+| Discovery | Follow market views, social updates, Calls and tracking surfaces. | Data availability and freshness depend on the specific source and view. |
+| Trade and Swap | Review a supported transaction, its amount, route and fees. | Execution availability is specific to the network, venue, asset and current wallet state. |
+| Launchpad | Explore launches and use supported token-creation workflows. | A catalogue entry or route listing is not evidence of completed execution. |
+| Alliances | Find communities, maintain membership, share Calls and organize task bounties. | Public community content and reward listings are not investment recommendations or guaranteed payments. |
+| Wallet and Portfolio | Manage execution-wallet duties and review account context. | Login identity and the execution wallet have different responsibilities. |
+| Tools | Access tools and supported rule workflows. | Visible or incomplete tools must not be represented as universally available automation. |
+| Live and Gacha | Explore stream and pack/card directories. | Directory visibility does not prove that every external stream or purchase flow is available. |
 
-## Product language
+## Public descriptions
 
-Preferred:
+Use **RTP.FUN** consistently as the product name. A concise description is:
 
-- **The alliance-native trading network.**
-- **Discover. Trade. Launch. Coordinate.**
-- **One terminal for markets, launches and trading communities.**
-- **Identity proves who you are. AMS controls what can be signed.**
+> RTP.FUN brings market discovery, trading, token launches and community alliances into one web app.
 
-Avoid unsupported superlatives such as “fastest”, “safest”, “fully audited”, “fully decentralized” or blanket “all chains live” claims.
+Describe the action a person can take before explaining an implementation term. Use **Wallet** in the user guide and explain **AMS** when discussing the execution architecture. Keep community coordination tied to current product capabilities; unpublished governance or economic mechanisms are not available features.
 
-## Official user documentation
+Avoid unsupported speed, safety, profitability, decentralization or universal chain-availability claims. Network support, a visible interface, an implementation and an observed on-chain execution each need their own scope.
 
-https://rtp.fun/docs/
+## Where to read more
 
-This repository is not a second copy of the user guide. The Docs explain **how to use Rtp.Fun**; this repository explains **what Rtp.Fun publicly claims and how those claims are scoped**.
+- [Official user guide](https://rtp.fun/docs/): how to use RTP.FUN.
+- [Current status](STATUS.md): dates, observations and limitations.
+- [Public architecture](ARCHITECTURE.md): the product's signing and server boundaries.
+- [Publication policy](PUBLICATION_POLICY.md): which evidence is appropriate to publish.

@@ -1,15 +1,27 @@
-# Public evidence status
+# RTP.FUN public status
 
-Rtp.Fun does not use a single blanket “live” flag for public trust claims.
+Last reviewed: **24 October 2026**. This is a dated record, not a real-time status service.
 
-| Level | Meaning |
+The [24 October release note](evidence/releases/2026-10-24/README.md) records current interface observations and recent fixes. It does not prove every transaction, launch route or external dependency is working.
+
+## Reading capability claims
+
+| Description | What it establishes |
 | --- | --- |
-| **Designed** | A defined architecture or control objective exists. |
-| **Implemented** | The relevant implementation exists in the private product source. |
-| **Conformance Evidence** | Tests or reviewable evidence support the stated contract. |
-| **Production Observed** | The behavior has been observed in production for the named scope. |
-| **Independently Assessed** | A named third party has evaluated the named scope. |
+| Designed | A documented architecture or control objective exists. |
+| Implemented | The corresponding product implementation exists. |
+| Conformance evidence | A named check supports a specific behavior for a stated release. |
+| Production observed | The stated behavior was observed on a named production path and date. |
+| Independently assessed | A named third party evaluated the published scope. |
 
-Evidence is scoped by release, chain, venue and capability when those distinctions matter.
+An architecture document is not a published test report. Internal test results are not an independent assessment. A displayed network or venue does not establish production execution, and observations from one route cannot be applied to another.
 
-A production-observed path on one chain must not be used to imply equivalent evidence on another chain.
+## Current publication limits
+
+- The public market, launch and alliance pages have dated interface evidence. This does not establish all actions within those pages.
+- Launch routes have different amounts of execution evidence. The latest review did not perform new transactions or validate every route.
+- External market and network services can be unavailable or return stale data. A bounded acceptance window is not an uptime or freshness guarantee.
+- Some visible product features are incomplete. Their presence in navigation is not a promise that their full workflow is available.
+- No independent security assessment, certification, native-token sale terms, airdrop entitlement or token-holder income right is published here.
+
+Previously published records remain available in Git history. A newer observation supersedes only the same behavior and scope; it does not silently upgrade unrelated claims.

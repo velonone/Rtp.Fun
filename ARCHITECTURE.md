@@ -23,7 +23,7 @@ Owns the visible user workflow, authenticated session context and reviewed inten
 Owns sensitive wallet duties, authorization state, transaction inspection and local signing.
 
 ### Server execution boundary
-May prepare, validate, authorize and relay execution material. The public model does not require the server to possess an AMS private key.
+Prepares, validates and relays supported execution material. Plaintext AMS signing keys are outside this server role; signing belongs to the user's browser wallet. Login does not authorize the server to sign for that wallet.
 
 ### External systems
 Market-data, risk, network and venue dependencies are treated as external systems. Their private identities, commercial configuration and failover order are not part of this public architecture.
@@ -39,4 +39,4 @@ Market-data, risk, network and venue dependencies are treated as external system
 - bypass-sensitive verifier fingerprints;
 - unpublished automation and risk parameters.
 
-The public repository exists to make trust claims reviewable without publishing the machinery needed to attack or reproduce the private operating stack.
+This document describes responsibilities. It is not a complete implementation specification or an independent assessment. See the [status rules](STATUS.md) for the difference between architecture, implementation and production observations.
