@@ -13,6 +13,14 @@ It is included in the existing verification workflow and requires only Python's
 standard library and Git. No application dependency or production behavior
 changes are included in this correction.
 
+## Account access wording
+
+Product copy now distinguishes the public overview, user guide and supported
+shared links from directories that require an RTP.FUN account. Screenshot
+captions do not imply signed-out access. No application access rule was changed.
+Existing public links returned successful document responses; those responses
+alone do not prove guest access or completed product workflows.
+
 ## Verification boundary
 
 The two reported regressions were reproduced in an isolated verification

@@ -1,6 +1,6 @@
 # RTP.FUN public status
 
-Last reviewed: **24 October 2026**. This is a dated record, not a real-time status service.
+Last reviewed: **25 October 2026**. This is a dated record, not a real-time status service.
 
 The [24 October release note](evidence/releases/2026-10-24/README.md) records current interface observations and recent fixes. It does not prove every transaction, launch route or external dependency is working.
 
@@ -18,7 +18,7 @@ An architecture document is not a published test report. Internal test results a
 
 ## Current publication limits
 
-- The public market, launch and alliance pages have dated interface evidence. This does not establish all actions within those pages.
+- Dated interface evidence covers market, launch and alliance pages. Their directories require an RTP.FUN account; a screenshot does not establish signed-out access or every action within a page.
 - Launch routes have different amounts of execution evidence. The latest review did not perform new transactions or validate every route.
 - External market and network services can be unavailable or return stale data. A bounded acceptance window is not an uptime or freshness guarantee.
 - Some visible product features are incomplete. Their presence in navigation is not a promise that their full workflow is available.
