@@ -9,11 +9,13 @@ import sys
 
 
 PRIVATE_KEY = re.compile(
-    r"-----BEGIN (?:RSA |OPENSSH |EC |DSA |ENCRYPTED )?PRIVATE KEY-----"
+    r"-----BEGIN (?:[A-Z0-9]+ )*PRIVATE KEY(?: BLOCK)?-----"
 )
 API_KEY_ASSIGNMENT = re.compile(
     r"\bapi[_-]?key[\"']?\s*[:=]\s*"
-    r'(?:"(?P<double>(?:\\.|[^"\\])*)"'
+    r'(?:"""(?P<triple_double>[\s\S]*?)(?:"""|\Z)'
+    r"|'''(?P<triple_single>[\s\S]*?)(?:'''|\Z)"
+    r'|"(?P<double>(?:\\.|[^"\\])*)"'
     r"|'(?P<single>(?:\\.|[^'\\])*)'"
     r"|(?P<bare>[^\s,;\]]+))",
     re.IGNORECASE,

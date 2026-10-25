@@ -17,8 +17,8 @@ RTP.FUN brings market discovery, trading, token launches and community alliances
 | Market discovery | Pulse market views, Signals updates, Calls and tracking surfaces. | [Pulse](https://rtp.fun/app/pulse) · [Signals](https://rtp.fun/app/signals) |
 | Trading | Trade and Swap workflows with amounts, fees and execution review; Portfolio for account context. | [Trading guide](https://rtp.fun/docs/using/trade/) |
 | Token launches | A launch catalogue and token-creation workflows, with availability specific to each network and route. | [Launchpad](https://rtp.fun/app/launch) |
-| Community alliances | A public directory, alliance membership, Calls and task bounties for community work. | [Alliances](https://rtp.fun/app/community) |
-| More to explore | Public Live and Gacha directories alongside the market and community features. | [Live](https://rtp.fun/app/live) · [Gacha](https://rtp.fun/app/gacha) |
+| Community alliances | An alliance directory for signed-in users, plus membership, Calls and task bounties for community work. | [Alliances](https://rtp.fun/app/community) |
+| More to explore | Live and Gacha directories for signed-in users. | [Live](https://rtp.fun/app/live) · [Gacha](https://rtp.fun/app/gacha) |
 
 Communities have a place to keep their identity, share Calls and organize work. Traders can follow the activity around an asset and move into its trading or launch workflow. A listed asset, community or third-party post is not an RTP.FUN endorsement.
 
@@ -39,11 +39,11 @@ Communities have a place to keep their identity, share Calls and organize work. 
 </tr>
 </table>
 
-These are real public page captures from **24 October 2026**. They exclude the account header, wallet balances and private drafts. Listed assets, community statistics and third-party content are historical screen content, not current quotes or performance claims. [Image provenance and sizes](assets/README.md).
+These are real product-page captures from **24 October 2026**. They exclude the account header, wallet balances and private drafts. Listed assets, community statistics and third-party content are historical screen content, not current quotes or performance claims. [Image provenance and sizes](assets/README.md).
 
 ## Start with the right context
 
-1. **Explore before connecting.** Use the public market, launch and community pages to understand the product.
+1. **Start with the overview and user guide.** Market, launch and alliance directories require an RTP.FUN account. Supported shared token and alliance-detail links can be viewed without signing in.
 2. **Learn the Wallet roles.** Login establishes your RTP.FUN account. The execution wallet, called AMS in the architecture documentation, signs supported transactions in the user's browser. [Wallet guide](https://rtp.fun/docs/using/wallet/).
 3. **Review the specific action.** Network, route, asset, amount and fees matter. A visible route or tool does not establish that every path has been exercised in production.
 4. **Check the result before repeating an action.** A transaction with an uncertain outcome needs verification; uncertainty is not confirmation of failure.

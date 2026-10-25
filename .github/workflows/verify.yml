@@ -17,6 +17,9 @@ jobs:
       - name: Reject obvious secret material
         run: python3 .github/scripts/check_public_secrets.py
 
+      - name: Verify scanner regression fixtures
+        run: python3 -B -m unittest discover -s .github/scripts -p 'test_check_public_secrets.py' -v
+
       - name: Validate public JSON and SVG
         run: |
           python3 - <<'PY'
